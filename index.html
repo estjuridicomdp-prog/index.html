@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Suárez Melani - Mar del Plata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dorado: #d4af37;
+            --negro-fondo: #0a0a0a;
+            --gris-texto: #cccccc;
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--negro-fondo);
+            color: var(--gris-texto);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Tipografía elegante para títulos */
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--dorado);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to bottom, #1a1a1a, #0a0a0a);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .logo-text {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 4px;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+            background: radial-gradient(circle, #1a1a1a 0%, #0a0a0a 100%);
+        }
+
+        .especialidad-destacada {
+            border: 2px solid var(--dorado);
+            padding: 30px;
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgba(212, 175, 55, 0.05);
+        }
+
+        .grid-servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            border-left: 3px solid var(--dorado);
+            padding: 20px;
+            background: #111;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #161616;
+        }
+
+        .contacto {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #000;
+        }
+
+        .btn-contacto {
+            display: inline-block;
+            padding: 15px 40px;
+            border: 1px solid var(--dorado);
+            color: var(--dorado);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.4s;
+            margin-top: 20px;
+        }
+
+        .btn-contacto:hover {
+            background-color: var(--dorado);
+            color: #000;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-text">SUÁREZ MELANI</div>
+    <div style="color: var(--dorado); letter-spacing: 2px;">ASESORAMIENTO JURÍDICO</div>
+</header>
+
+<section class="hero">
+    <h1>Excelencia Jurídica en Mar del Plata</h1>
+    <p>Brindamos soluciones integrales con un enfoque personalizado y humano.</p>
+    
+    <div class="especialidad-destacada">
+        <h3>Especialista en Derecho Contencioso Administrativo</h3>
+        <p>Defensa técnica ante la administración pública, procesos ante tribunales administrativos y asesoramiento en gestión estatal.</p>
+    </div>
+</section>
+
+<section class="grid-servicios">
+    <div class="card">
+        <h3>Derecho General</h3>
+        <p>Asesoramiento integral y consultoría para particulares y empresas.</p>
+    </div>
+    <div class="card">
+        <h3>Civil y Comercial</h3>
+        <p>Contratos, sucesiones, daños y perjuicios, y litigios comerciales.</p>
+    </div>
+    <div class="card">
+        <h3>Derecho Penal</h3>
+        <p>Representación en procesos penales con máxima confidencialidad.</p>
+    </div>
+    <div class="card">
+        <h3>Derecho Laboral</h3>
+        <p>Reclamos por despidos, accidentes de trabajo (ART) y conciliaciones.</p>
+    </div>
+</section>
+
+<section class="contacto">
+    <h2>Agende una Consulta</h2>
+    <p>Por razones de seguridad y confidencialidad, la atención presencial se coordina mediante entrevista previa.</p>
+    <p><strong>Email:</strong> estjuridicomdp@gmail.com</p>
+    <p><strong>Teléfono:</strong> (0223) 155-674018</p>
+    <a href="https://wa.me/542235674018" class="btn-contacto">Solicitar Entrevista por WhatsApp</a>
+</section>
+
+<footer>
+    &copy; 2026 Estudio Jurídico Suárez Melani. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
